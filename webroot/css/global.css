@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+body{
+	padding-right:20px;
+	padding-left:20px;
+	font-family:PT Sans;
+	text-align:left;
+}
+.div-déco{
+	height:3px;
+}
+.color-orange{
+	color:#f39c12;
+}
+.backgroundcolor-orange{
+	background-color:#f39c12;
+}
+/**********/
+/* HEADER */
+/**********/
+header h1{
+	font-size:1.5em;
+	margin-bottom:5px;
+}
+header nav {
+	background-color:lightgrey;
+	height:50px;
+	display:flex;
+    align-items: center;
+    border-width:5px;
+}
+header nav a{
+	padding:10px;
+	text-decoration: none;
+	color:black;
+}
+header nav a:first-child{
+	padding-left:20px;
+}
+header nav a p{
+	padding:7px;
+	border-style: solid;
+	border-top:none;
+	border-bottom:none;
+	border-width:1px;
+	border-color:black;
+}
+
+/*****************/
+/* ADRESSE/INDEX */
+/*****************/
+
+h2{
+	font-size:1.3em;
+}
+
+div[role="status"]{
+	border-color:;
+}
+
+/**********/
+/* FOOTER */
+/**********/
+footer{
+	background-color:lightgrey;
+	height:20px;
+	width:100%;
+}
+
+/*************/
+/* ERROR 404 */
+/*************/
